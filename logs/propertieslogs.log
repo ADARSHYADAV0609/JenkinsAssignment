@@ -1,0 +1,110 @@
+[INFO ] 2022-10-02 15:12:21.465 [main] HomePageTest - Verified that expected and actual title are same
+[ERROR] 2022-10-02 15:13:00.864 [main] HomePageTest - Actual and Expected title are not same
+[INFO ] 2022-10-02 15:13:54.361 [main] HomePageTest - Item entered on search box
+[INFO ] 2022-10-02 15:14:01.028 [main] HomePageTest - Clicked search button
+[INFO ] 2022-10-02 15:14:01.028 [main] HomePageTest - Verified that item searched succesfully
+[INFO ] 2022-10-02 15:14:30.224 [main] HomePageTest - Logo displayed
+[INFO ] 2022-10-02 15:14:52.205 [main] HomePageTest - Menu found and clicked
+[INFO ] 2022-10-02 15:14:52.241 [main] HomePageTest - Verified that menu displayed on page succesfully
+[INFO ] 2022-10-02 15:15:02.200 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 15:15:02.286 [main] LoginPageTest - Entered Valid Email Address or Phone Number
+[INFO ] 2022-10-02 15:15:04.219 [main] LoginPageTest - Clicked on continue
+[INFO ] 2022-10-02 15:15:04.317 [main] LoginPageTest - Entered password
+[INFO ] 2022-10-02 15:15:04.538 [main] LoginPageTest - Clicked on submit
+[INFO ] 2022-10-02 15:15:04.538 [main] LoginPageTest - Verified that the user landed on the Home Page
+[INFO ] 2022-10-02 15:15:56.367 [main] SignupPageTest - Clicked on login/signup button
+[INFO ] 2022-10-02 15:15:57.281 [main] SignupPageTest - Clicked on signUp
+[INFO ] 2022-10-02 15:15:57.419 [main] SignupPageTest - Entered username
+[INFO ] 2022-10-02 15:15:57.533 [main] SignupPageTest - Entered email or mobile number
+[INFO ] 2022-10-02 15:15:57.636 [main] SignupPageTest - Entered password
+[INFO ] 2022-10-02 15:15:58.921 [main] SignupPageTest - Clicked on Submit
+[INFO ] 2022-10-02 15:15:58.921 [main] SignupPageTest - Verified that user registered succesfully
+[INFO ] 2022-10-02 15:16:14.808 [main] SignupPageTest - Clicked on login/signUp button
+[INFO ] 2022-10-02 15:16:15.797 [main] SignupPageTest - Clicked on signUp
+[INFO ] 2022-10-02 15:16:15.910 [main] SignupPageTest - entered username
+[INFO ] 2022-10-02 15:16:16.003 [main] SignupPageTest - entered mobile number
+[INFO ] 2022-10-02 15:16:16.110 [main] SignupPageTest - Entered password
+[INFO ] 2022-10-02 15:16:16.187 [main] SignupPageTest - Clicked on Submit button
+[WARN ] 2022-10-02 15:16:16.187 [main] SignupPageTest - Invalid password type
+[INFO ] 2022-10-02 15:16:32.327 [main] CartPageTest - Entered item on searchbox
+[INFO ] 2022-10-02 15:16:35.305 [main] CartPageTest - Clicked on search
+[INFO ] 2022-10-02 15:16:35.481 [main] CartPageTest - Item Selected
+[INFO ] 2022-10-02 15:16:48.512 [main] CartPageTest - Searched Item on searchbox
+[INFO ] 2022-10-02 15:16:51.006 [main] CartPageTest - Clicked on search button
+[INFO ] 2022-10-02 15:16:51.165 [main] CartPageTest - Item Selected
+[INFO ] 2022-10-02 15:17:04.734 [main] CartPageTest - Clicked on search
+[INFO ] 2022-10-02 15:17:04.998 [main] CartPageTest - Item Selected
+[INFO ] 2022-10-02 15:17:19.432 [main] CartPageTest - Clicked on cart
+[INFO ] 2022-10-02 15:17:21.224 [main] CartPageTest - Clicked on signIn
+[INFO ] 2022-10-02 15:17:21.367 [main] CartPageTest - Entered Email or mobile number
+[INFO ] 2022-10-02 15:17:22.526 [main] CartPageTest - Clicked on continue
+[INFO ] 2022-10-02 15:17:22.631 [main] CartPageTest - Entered password
+[INFO ] 2022-10-02 15:17:22.794 [main] CartPageTest - Clicked on submit button
+[INFO ] 2022-10-02 15:17:22.794 [main] CartPageTest - Verified that user succesfuly view cart option
+[INFO ] 2022-10-02 15:54:05.621 [main] HomePageTest - Verified that expected and actual title are same
+[ERROR] 2022-10-02 15:54:13.502 [main] HomePageTest - Actual and Expected title are not same
+[INFO ] 2022-10-02 15:54:19.162 [main] HomePageTest - Item entered on search box
+[INFO ] 2022-10-02 15:54:22.366 [main] HomePageTest - Clicked search button
+[INFO ] 2022-10-02 15:54:22.544 [main] HomePageTest - Verified that item searched succesfully
+[INFO ] 2022-10-02 15:54:30.870 [main] HomePageTest - Logo displayed
+[INFO ] 2022-10-02 15:54:37.334 [main] HomePageTest - Menu found and clicked
+[INFO ] 2022-10-02 15:54:37.350 [main] HomePageTest - Verified that menu displayed on page succesfully
+[INFO ] 2022-10-02 15:54:44.740 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 15:54:44.819 [main] LoginPageTest - Entered Valid Email Address or Phone Number
+[INFO ] 2022-10-02 15:54:46.826 [main] LoginPageTest - Clicked on continue
+[INFO ] 2022-10-02 15:54:46.904 [main] LoginPageTest - Entered password
+[INFO ] 2022-10-02 15:54:47.018 [main] LoginPageTest - Clicked on submit
+[INFO ] 2022-10-02 15:54:47.018 [main] LoginPageTest - Verified that the user landed on the Home Page
+[INFO ] 2022-10-02 15:54:55.302 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 15:54:55.363 [main] LoginPageTest - Entered Invalid Email or Phone number
+[INFO ] 2022-10-02 15:54:56.133 [main] LoginPageTest - Click Continue
+[WARN ] 2022-10-02 15:54:56.177 [main] LoginPageTest - We cannot find an account with that mobile number
+[INFO ] 2022-10-02 15:55:05.394 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 15:55:05.482 [main] LoginPageTest - Entered valid Email or Mobile number
+[INFO ] 2022-10-02 15:55:06.525 [main] LoginPageTest - Clicked on continue
+[INFO ] 2022-10-02 15:55:06.584 [main] LoginPageTest - entered invalid Password
+[INFO ] 2022-10-02 15:55:08.100 [main] LoginPageTest - Your password is incorrect
+[INFO ] 2022-10-02 15:55:15.521 [main] SignupPageTest - Clicked on login/signup button
+[INFO ] 2022-10-02 15:55:16.412 [main] SignupPageTest - Clicked on signUp
+[INFO ] 2022-10-02 15:55:16.491 [main] SignupPageTest - Entered username
+[INFO ] 2022-10-02 15:55:16.556 [main] SignupPageTest - Entered email or mobile number
+[INFO ] 2022-10-02 15:55:16.635 [main] SignupPageTest - Entered password
+[INFO ] 2022-10-02 15:55:18.003 [main] SignupPageTest - Clicked on Submit
+[INFO ] 2022-10-02 15:55:18.003 [main] SignupPageTest - Verified that user registered succesfully
+[INFO ] 2022-10-02 15:55:24.473 [main] SignupPageTest - Clicked on login/signUp button
+[INFO ] 2022-10-02 15:55:25.295 [main] SignupPageTest - Clicked on signUp
+[INFO ] 2022-10-02 15:55:25.348 [main] SignupPageTest - entered username
+[INFO ] 2022-10-02 15:55:25.416 [main] SignupPageTest - entered mobile number
+[INFO ] 2022-10-02 15:55:25.486 [main] SignupPageTest - Entered password
+[INFO ] 2022-10-02 15:55:25.565 [main] SignupPageTest - Clicked on Submit button
+[WARN ] 2022-10-02 15:55:25.565 [main] SignupPageTest - Invalid password type
+[INFO ] 2022-10-02 15:55:30.740 [main] CartPageTest - Entered item on searchbox
+[INFO ] 2022-10-02 15:55:32.474 [main] CartPageTest - Clicked on search
+[INFO ] 2022-10-02 15:55:32.605 [main] CartPageTest - Item Selected
+[INFO ] 2022-10-02 15:55:37.715 [main] CartPageTest - Searched Item on searchbox
+[INFO ] 2022-10-02 15:55:39.785 [main] CartPageTest - Clicked on search button
+[INFO ] 2022-10-02 15:55:39.946 [main] CartPageTest - Item Selected
+[INFO ] 2022-10-02 15:55:48.467 [main] CartPageTest - Clicked on search
+[INFO ] 2022-10-02 15:55:48.616 [main] CartPageTest - Item Selected
+[INFO ] 2022-10-02 15:55:56.231 [main] CartPageTest - Clicked on cart
+[INFO ] 2022-10-02 15:55:57.308 [main] CartPageTest - Clicked on signIn
+[INFO ] 2022-10-02 15:55:57.411 [main] CartPageTest - Entered Email or mobile number
+[INFO ] 2022-10-02 15:55:58.853 [main] CartPageTest - Clicked on continue
+[INFO ] 2022-10-02 15:55:58.905 [main] CartPageTest - Entered password
+[INFO ] 2022-10-02 15:55:58.972 [main] CartPageTest - Clicked on submit button
+[INFO ] 2022-10-02 15:55:58.972 [main] CartPageTest - Verified that user succesfuly view cart option
+[INFO ] 2022-10-02 16:40:39.206 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 16:40:39.276 [main] LoginPageTest - Entered Valid Email Address or Phone Number
+[INFO ] 2022-10-02 16:40:40.764 [main] LoginPageTest - Clicked on continue
+[INFO ] 2022-10-02 16:40:40.824 [main] LoginPageTest - Entered password
+[INFO ] 2022-10-02 16:40:40.921 [main] LoginPageTest - Clicked on submit
+[INFO ] 2022-10-02 16:40:40.921 [main] LoginPageTest - Verified that the user landed on the Home Page
+[INFO ] 2022-10-02 16:40:46.827 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 16:40:46.890 [main] LoginPageTest - Entered Invalid Email or Phone number
+[INFO ] 2022-10-02 16:40:47.363 [main] LoginPageTest - Click Continue
+[WARN ] 2022-10-02 16:40:47.402 [main] LoginPageTest - We cannot find an account with that mobile number
+[INFO ] 2022-10-02 16:40:55.214 [main] LoginPageTest - Clicked on signIn
+[INFO ] 2022-10-02 16:40:55.273 [main] LoginPageTest - Entered valid Email or Mobile number
+[INFO ] 2022-10-02 16:40:56.161 [main] LoginPageTest - Clicked on continue
+[INFO ] 2022-10-02 16:40:56.227 [main] LoginPageTest - entered invalid Password
+[INFO ] 2022-10-02 16:40:57.540 [main] LoginPageTest - Your password is incorrect
