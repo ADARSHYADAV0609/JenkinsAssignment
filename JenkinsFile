@@ -1,27 +1,34 @@
-pipeline {
+pipeline{
     agent any
-    stages {
-        stage('git repo & clean') {
-            steps {
-               //bat "rmdir  /s /q JenkinsAssignment"
-                bat "https://github.com/ADARSHYADAV0609/JenkinsAssignment.git"
-                bat "mvn clean -f JenkinsAssignment"
-            }
+       environment {
+             notifymail = "yadavadarsh9699@gmail.com"
+       }
+    tools{
+         maven "MVN_HOME"
+    }
+     triggers {
+         cron('0 06 * * *')
+         }
+    stages{
+        stage("code checout"){
+            steps{
+        bat "echo hello"
         }
-        stage('install') {
-            steps {
-                bat "mvn install -f JenkinsAssignment"
-            }
+    }
+    stage("code build"){
+        steps{
+        bat "MVN clean"
         }
-        stage('test') {
-            steps {
-                bat "mvn test -f JenkinsAssignment"
-            }
+    }
+    stage("unit test"){
+            steps{
+        bat "MVN test"
         }
-        stage('package') {
-            steps {
-                bat "mvn package -f JenkinsAssignment"
-            }
+    }
+}
+post{
+    success{
+        bat "echo Test pass"
         }
     }
 }
