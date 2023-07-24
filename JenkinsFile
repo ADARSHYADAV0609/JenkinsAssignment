@@ -17,12 +17,12 @@ pipeline{
     }
     stage("code build"){
         steps{
-        bat "MVN clean"
+        bat "mvn clean"
         }
     }
     stage("unit test"){
             steps{
-        bat "MVN test"
+        bat "mvn test"
         }
     }
 }
