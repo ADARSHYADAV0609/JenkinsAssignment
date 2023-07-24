@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    stages {
+        stage('git repo & clean') {
+            steps {
+               //bat "rmdir  /s /q JenkinsAssignment"
+                bat "https://github.com/ADARSHYADAV0609/JenkinsAssignment.git"
+                bat "mvn clean -f JenkinsAssignment"
+            }
+        }
+        stage('install') {
+            steps {
+                bat "mvn install -f JenkinsAssignment"
+            }
+        }
+        stage('test') {
+            steps {
+                bat "mvn test -f JenkinsAssignment"
+            }
+        }
+        stage('package') {
+            steps {
+                bat "mvn package -f JenkinsAssignment"
+            }
+        }
+    }
+}
